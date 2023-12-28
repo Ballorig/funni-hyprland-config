@@ -1,1 +1,34 @@
+* {
+	border-radius: 13px;
+	border: none;
+}
 
+window {
+	font-size: 23px;
+	font-family: "Roboto Mono";
+	background-color: rgba(28, 28, 28, 0.8);
+	color: white;
+}
+
+#entry {
+	padding: 0.30em;
+}
+
+#entry:selected {
+	background-color: #aaa48a;
+}
+
+#text:selected {
+	color: #242442;
+}
+
+#input {
+	background-color: rgba(28, 28, 28, 0.6);
+	color: white;
+	padding: 0.30em;
+}
+
+image {
+	margin-left: 0.50em;
+	margin-right: 0.50em;
+}
